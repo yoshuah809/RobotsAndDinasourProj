@@ -12,3 +12,20 @@ Raptor = Dinosaur("Raptor", 10)
 Triceraptor = Dinosaur("Triceraptor", 8)
 Oviraptor =Dinosaur("Oviraptor", 9)
 
+fleet1 = Fleet()
+herd1 = Herd()
+
+fleet1.create_fleet(Robocop)
+fleet1.create_fleet(Lancer)
+fleet1.create_fleet(Terminator)
+
+herd1.create_herd(Raptor)
+herd1.create_herd(Triceraptor)
+herd1.create_herd(Oviraptor)
+
+for a in herd1.dinosaur:
+    print(a)
+
+
+for i in fleet1.robots:
+    print (i)
