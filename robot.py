@@ -7,3 +7,7 @@ class Robot():
 
     def attack(self, dinosaur):
         pass
+
+    
+    def __str__(self) -> str:
+        return self.name

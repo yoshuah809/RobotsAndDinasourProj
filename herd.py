@@ -1,7 +1,6 @@
 class Herd():
     def __init__(self):
-        self.dinasaur = []
-        
-        
+        self.dinosaur = []
+    
     def create_heard(self):
         pass
