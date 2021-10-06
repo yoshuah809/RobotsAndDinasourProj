@@ -1,13 +1,14 @@
 class Robot():
     def __init__(self, name):
         self.name = name
-        self.health = 0
-        self.weapon = None
+        self.health = 100
+        self.weapon = 10
 
 
     def attack(self, dinosaur):
-        pass
+        dinosaur.health -= self.weapon
 
     
     def __str__(self) -> str:
-        return self.name
+        str1 = F"{self.name}  Health - {self.health}"
+        return str1

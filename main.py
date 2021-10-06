@@ -29,3 +29,9 @@ for a in herd1.dinosaur:
 
 for i in fleet1.robots:
     print (i)
+
+fleet1.robots[0].attack(Raptor)
+Robocop.attack(Triceraptor)
+
+for a in herd1.dinosaur:
+    print(a)
