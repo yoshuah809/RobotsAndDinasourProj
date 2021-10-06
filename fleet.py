@@ -4,9 +4,10 @@ class Fleet():
     def __init__(self):
         self.robots = []
 
-
     def create_fleet(self, Robot):
-       pass
+        self.robots.append(Robot)
+        #print(f'{Robot} was added to Fleet')
+
     
 
     
