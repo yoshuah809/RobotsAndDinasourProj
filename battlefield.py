@@ -34,10 +34,16 @@ class Battlefield ():
 
         while running:
             pass
-        
+
     def display_welcome(self):
-        print("Welcome to The Battlefield")
-        
+        print("Welcome to The Robots and Dinosaurs Battlefield")
+        option = int(input("Please Select 1 if you want to choose Robot or 2 for Dinosaur: "))
+        if option == 1 or option == 2:
+            print(f'You have Selected: %s' % option)
+        else:
+            self.display_welcome()
+        return
+
 
     def display(self):
         pass
